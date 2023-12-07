@@ -8,6 +8,7 @@ description = "Clipboard utils."
 dependencies = [
     "build",
     "pytest",
+    "IPython",
 ]
 
 [project.urls]
