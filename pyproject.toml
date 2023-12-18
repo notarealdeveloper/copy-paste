@@ -1,10 +1,10 @@
 [project]
-name = "copy_paste"
-version = "0.0.2"
+name = "interprocess"
+version = "0.0.1"
 authors = [
     { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
 ]
-description = "Copypasta utils."
+description = "Interprocess communication"
 dependencies = [
     "build",
     "pytest",
@@ -12,8 +12,8 @@ dependencies = [
 ]
 
 [project.urls]
-source = "https://github.com/notarealdeveloper/copy_paste"
-download = "https://pypi.org/project/copy-paste/#files"
+source = "https://github.com/notarealdeveloper/interprocess"
+download = "https://pypi.org/project/interprocess/#files"
 
 [build-system]
 requires = ["setuptools"]

@@ -1,4 +1,4 @@
-PKG := copy_paste
+PKG := interprocess
 
 build:
 	pip install build

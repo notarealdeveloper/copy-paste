@@ -1,7 +1,8 @@
-# copy_paste
+# interprocess
 
-Clipboard utils.
+Interprocess communication.
 
-* xc
-* %xc
-* %%xc
+## copypaste is ipc
+* bin/xc: executable for copy-paste, tries to be os and terminal agnostic
+* %xc: ipython line magic
+* %%xc: ipython cell magic
