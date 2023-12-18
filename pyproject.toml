@@ -1,10 +1,10 @@
 [project]
 name = "copy_paste"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
 ]
-description = "Clipboard utils."
+description = "Copypasta utils."
 dependencies = [
     "build",
     "pytest",
@@ -14,3 +14,12 @@ dependencies = [
 [project.urls]
 source = "https://github.com/notarealdeveloper/copy_paste"
 download = "https://pypi.org/project/copy-paste/#files"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+script-files = [
+    "bin/xc",
+]
